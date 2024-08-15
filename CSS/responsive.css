@@ -13,10 +13,36 @@
         display: flex;
         
     }
+    .nav{
+        height: fit-content;
+    }
     .hamburger>a{
         text-decoration: none;
         color: white;
 
+    }
+    .slogun{
+        width: 285px;
+        height: 129px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .title{
+        /* border: 0px; */
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .container{
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
     }
 }
 @media screen and (min-width:577px) and (max-width:998px) {
@@ -30,6 +56,9 @@
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 39px;
         padding: 10px;
+    }
+    .banner-pic{
+        position: relative;
     }
     .nav-links:hover{
         background-color: rgb(230, 83, 60);
