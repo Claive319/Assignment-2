@@ -573,3 +573,15 @@ td, th{
     background: linear-gradient(to bottom, #000000, #4d4d4d, #d3d3d3);
     background-repeat: no-repeat;
 }
+.esam{
+    display: flex;
+    flex-direction: row;
+}
+.third-buton{
+    
+    background-color: aquamarine;
+    border-radius: 24px;
+    
+    justify-content: flex-end;
+    
+}
